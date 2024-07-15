@@ -14,4 +14,4 @@ ggg = browser.find_element(By.TAG_NAME, "a")
 print(ggg.text)
 
 with open("goods.csv", 'w') as file:
-    
+
