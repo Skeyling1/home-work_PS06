@@ -9,9 +9,27 @@ from selenium.webdriver.common.by import By
 browser = webdriver.Firefox()
 browser.get('https://www.divan.ru/syktyvkar/category/tovary_dla_doma')
 
-ggg = browser.find_element(By.TAG_NAME, "a")
+ggg = browser.find_elements(By.CLASS_NAME, 'wYUX2')
 
-print(ggg.text)
 
+
+
+headings = ['n/n','item_name', 'price', 'link']
 with open("goods.csv", 'w') as file:
+    writer = csv.writer(file)
+    writer.writerow(headings)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+browser.quit()
