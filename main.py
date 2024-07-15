@@ -6,7 +6,7 @@ import csv
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-browser = webdriver.Firefox()
+browser = webdriver.Chrome()
 browser.get('https://www.divan.ru/syktyvkar/category/tovary_dla_doma')
 
 ggg = browser.find_elements(By.CLASS_NAME, 'wYUX2')
@@ -23,8 +23,8 @@ with open("goods.csv", 'w') as file:
         no += 1
         item_name = i.get_attribute('name')
         price = i.get_attribute('price')
-        print(price)
-        print(item_name)
+        print(ggg)
+
 
 
 
