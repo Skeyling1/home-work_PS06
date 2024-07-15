@@ -14,10 +14,19 @@ ggg = browser.find_elements(By.CLASS_NAME, 'wYUX2')
 
 
 
-headings = ['n/n','item_name', 'price', 'link']
+headings = ['no.','item_name', 'price', 'link']
+no = 0
 with open("goods.csv", 'w') as file:
     writer = csv.writer(file)
     writer.writerow(headings)
+    for i in ggg:
+        no += 1
+        item_name = i.get_attribute('name')
+        price = i.get_attribute('price')
+        print(price)
+        print(item_name)
+
+
 
 
 
