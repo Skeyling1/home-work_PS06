@@ -10,34 +10,23 @@ browser = webdriver.Chrome()
 browser.get('https://www.divan.ru/syktyvkar/category/tovary_dla_doma')
 
 ggg = browser.find_elements(By.CLASS_NAME, 'wYUX2')
-
-
-
-
-headings = ['no.','item_name', 'price', 'link']
-no = 0
+sorted_data = []
+headings = ['nn','item_name', 'price', 'link']
+nn = 0
 with open("goods.csv", 'w') as file:
     writer = csv.writer(file)
     writer.writerow(headings)
     for i in ggg:
-        no += 1
+        nn += 1
         item_name = i.get_attribute('name')
-        price = i.get_attribute('price')
-        print(ggg)
+
+        price = i.find_element(By.CLASS_NAME, 'span.ui-LD-ZU.KIkOH').text
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+        link = i.get_attribute('href')
+        sorted_data.append([nn, item_name, price, link])
+    writer.writerows(sorted_data)
 
 
 
