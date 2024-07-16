@@ -15,7 +15,15 @@ headings = ['nn','item_name', 'price', 'link']
 nn = 0
 
 for i in browser.find_elements(By.CLASS_NAME, 'wYUX2'):
-    print(i.text)
+    name = i.find_element(By.TAG_NAME, 'span')
+    price = i.find_element(By.CLASS_NAME, 'ui-LD-ZU.KIkOH')
+
+    for element in i.find_elements(By.TAG_NAME, 'a'):
+        link = element.get_attribute("href")
+    
+    print(name.text)
+    print(price.text)
+    print(link)
 
 
 #with open("goods.csv", 'w') as file:
