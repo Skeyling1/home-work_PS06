@@ -11,34 +11,25 @@ browser.get('https://www.divan.ru/syktyvkar/category/tovary_dla_doma')
 
 
 sorted_data = []
+data_row = []
 headings = ['nn','item_name', 'price', 'link']
 nn = 0
 
-for i in browser.find_elements(By.CLASS_NAME, 'wYUX2'):
-    name = i.find_element(By.TAG_NAME, 'span')
-    price = i.find_element(By.CLASS_NAME, 'ui-LD-ZU.KIkOH')
-
-    for element in i.find_elements(By.TAG_NAME, 'a'):
-        link = element.get_attribute("href")
-    
-    print(name.text)
-    print(price.text)
-    print(link)
-
-
-#with open("goods.csv", 'w') as file:
-   # writer = csv.writer(file)
-   # writer.writerow(headings)
-    #for i in browser.find_elements(By.CLASS_NAME, 'wYUX2'):
-    #    nn += 1
-        #item_name = i.find_element(By.CLASS_NAME,'wYUX2')
-        #print(item_name)
-
-        #price = i.find_element(By.CLASS_NAME, 'span.ui-LD-ZU.KIkOH').text
-
-     #   sorted_data.append([nn, ])
-   # writer.writerows(sorted_data)
-
+with open("goods.csv", 'w',newline='', encoding='utf-8') as file:
+    writer = csv.writer(file)
+    writer.writerow(headings)
+    for i in browser.find_elements(By.CLASS_NAME, 'wYUX2'):
+        name = i.find_element(By.TAG_NAME, 'span')
+        price = i.find_element(By.CLASS_NAME, 'ui-LD-ZU.KIkOH')
+        for element in i.find_elements(By.TAG_NAME, 'a'):
+            link = element.get_attribute("href")
+        #print(name.text)
+        #print(price.text)
+        #print(link)
+        nn += 1
+        data_row = [nn, name.text, price.text, link]
+        sorted_data.append(data_row)
+    writer.writerows(sorted_data)
 
 
 browser.quit()

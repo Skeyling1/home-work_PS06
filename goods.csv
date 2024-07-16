@@ -1,49 +1,49 @@
-nn,item_name,price,link
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
+nn,item_name,price,link
+1,Подушка для сна Миэль 50x70,3610руб.,https://www.divan.ru/syktyvkar/product/podushka-dlya-sna-miel-50x70
+2,Ковер Line-Salvador 160x230,15 810руб.,https://www.divan.ru/syktyvkar/product/kover-line-salvador-160x230
+3,Ковер Джайпур-Этник 160x230,23 720руб.,https://www.divan.ru/syktyvkar/product/kover-djajpur-etnik-160x230
+4,Ковер Vivica-White-Taupe 160x230,24 850руб.,https://www.divan.ru/syktyvkar/product/kover-vivica-white-taupe-160x230
+5,Зеркало Стелла Дуб Сонома,3720руб.,https://www.divan.ru/syktyvkar/product/zerkalo-stella-dub-sonoma
+6,Подушка для сна Маффи 50x70,2820руб.,https://www.divan.ru/syktyvkar/product/podushka-dlya-sna-maffi-50x70
+7,Одеяло Миллак 140x205,5640руб.,https://www.divan.ru/syktyvkar/product/odeyalo-millak-140x205
+8,Ковер двусторонний Лиссе 160x230,10 160руб.,https://www.divan.ru/syktyvkar/product/kover-dvustoronnij-lisse-160x230
+9,Подушка для сна Космо 50x70,2820руб.,https://www.divan.ru/syktyvkar/product/podushka-dlya-sna-kosmo-50x70
+10,Средство по уходу за мебелью AGG для рогожки,780руб.,https://www.divan.ru/syktyvkar/product/sredstva-po-uhodu-za-mebelyu-agg-dlya-rogojki
+11,Ковер Лоуэлл 160x230,11 860руб.,https://www.divan.ru/syktyvkar/product/kover-louell-160x230
+12,Пятновыводитель AGG универсальный,900руб.,https://www.divan.ru/syktyvkar/product/pyatnovyvoditel-agg-universalnyj
+13,Средство по уходу за мебелью AGG для велюра,780руб.,https://www.divan.ru/syktyvkar/product/sredstva-po-uhodu-za-mebelyu-agg-dlya-velyura
+14,Ковер Мейвори 160x230,12 420руб.,https://www.divan.ru/syktyvkar/product/kover-mejvori-160x230
+15,Ковер Vivica-Grey-Blue 160x230,24 850руб.,https://www.divan.ru/syktyvkar/product/kover-vivica-grey-blue-160x230
+16,Зеркало Стелла Белый,3720руб.,https://www.divan.ru/syktyvkar/product/zerkalo-stella-belyj
+17,Ковер Арджил-Этник-Blue 70x160,11 290руб.,https://www.divan.ru/syktyvkar/product/kover-ardjil-etnik-blue-70x160
+18,Средство очистки AGG для очистки ковров,780руб.,https://www.divan.ru/syktyvkar/product/sredstvo-ochistki-agg-dlya-ochistki-kovrov
+19,Зеркало Кристэн Дуб Сонома,3720руб.,https://www.divan.ru/syktyvkar/product/zerkalo-kristen-dub-sonoma
+20,Ковер Боник 160x230,12 990руб.,https://www.divan.ru/syktyvkar/product/kover-bonik-160x230
+21,Подушка для сна Бэлл 50x70,2820руб.,https://www.divan.ru/syktyvkar/product/podushka-dlya-sna-bell-50x70
+22,Одеяло Сиена 140x205,5640руб.,https://www.divan.ru/syktyvkar/product/odeyalo-siena-140x205
+23,Ковер Флау 160x230,13 550руб.,https://www.divan.ru/syktyvkar/product/kover-flau-160x230
+24,Подушка для сна Вивьен 50x70,1580руб.,https://www.divan.ru/syktyvkar/product/podushka-dlya-sna-viven-50x70
+25,Ковер Memory-Blue 120x180,12 420руб.,https://www.divan.ru/syktyvkar/product/kover-memory-blue-120x180
+26,Подушка для сна Амели 50x70,2250руб.,https://www.divan.ru/syktyvkar/product/podushka-dlya-sna-ameli-50x70
+27,Подушка для сна Сиена 50x70,2820руб.,https://www.divan.ru/syktyvkar/product/podushka-dlya-sna-siena-50x70
+28,Одеяло Илин 200x220,9030руб.,https://www.divan.ru/syktyvkar/product/odeyalo-ilin-200x220
+29,Подушка для сна Флатми 50x70,3380руб.,https://www.divan.ru/syktyvkar/product/podushka-dlya-sna-flatmi-50x70
+30,Подушка для сна Илин 50x70,3380руб.,https://www.divan.ru/syktyvkar/product/podushka-dlya-sna-ilin-50x70
+31,Подушка для сна Миллак 50x70,2820руб.,https://www.divan.ru/syktyvkar/product/podushka-dlya-sna-millak-50x70
+32,Универсальные влажные салфетки AGG для тканей,670руб.,https://www.divan.ru/syktyvkar/product/universalnye-vlajnye-salfetki-agg-dlya-tkanej
+33,Универсальные влажные салфетки AGG для корпусной мебели,670руб.,https://www.divan.ru/syktyvkar/product/universalnye-vlajnye-salfetki-agg-dlya-korpusnoj-mebeli
+34,Ковер Line-Otto 160x230,15 810руб.,https://www.divan.ru/syktyvkar/product/kover-line-otto-160x230
+35,Ковер Mineral-Blue 160x230,14 680руб.,https://www.divan.ru/syktyvkar/product/kover-mineral-blue-160x230
+36,Средство по уходу за мебелью AGG для замши,780руб.,https://www.divan.ru/syktyvkar/product/sredstva-po-uhodu-za-mebelyu-agg-dlya-zamshi
+37,Подлокотник Реечный Светлый,1800руб.,https://www.divan.ru/syktyvkar/product/podlokotnik-reechnyj-svetlyj
+38,Полироль AGG матовый,780руб.,https://www.divan.ru/syktyvkar/product/polirol-agg-matovyj
+39,Ковер Ungaro-Sultan 160x230,14 680руб.,https://www.divan.ru/syktyvkar/product/kover-ungaro-sultan-160x230
+40,Ковер Ungaro-Jasmine 160x230,14 680руб.,https://www.divan.ru/syktyvkar/product/kover-ungaro-jasmine-160x230
+41,Ковер Ungaro-Castle 160x230,14 680руб.,https://www.divan.ru/syktyvkar/product/kover-ungaro-castle-160x230
+42,Ковер Ungaro-Fancy 140x200,11 290руб.,https://www.divan.ru/syktyvkar/product/kover-ungaro-fancy-140x200
+43,Ковер Nero-Tach 200x290,25 980руб.,https://www.divan.ru/syktyvkar/product/kover-nero-tach-200x290
+44,Ковер Лаунлини 160x230,11 860руб.,https://www.divan.ru/syktyvkar/product/kover-launlini-160x230
+45,Ковер Alina-Savage 160x230,18 070руб.,https://www.divan.ru/syktyvkar/product/kover-alina-savage-160x230
+46,Ковер Marble-Grey 120x180,12 420руб.,https://www.divan.ru/syktyvkar/product/kover-marble-grey-120x180
+47,Ковер Line-Yellow 160x230,16 940руб.,https://www.divan.ru/syktyvkar/product/kover-line-yellow-160x230
+48,Ковер Line-Pink 160x230,16 940руб.,https://www.divan.ru/syktyvkar/product/kover-line-pink-160x230
