@@ -14,7 +14,8 @@ sorted_data = []
 headings = ['nn','item_name', 'price', 'link']
 nn = 0
 
-
+for i in browser.find_elements(By.CLASS_NAME, 'wYUX2'):
+    print(i.text)
 
 
 #with open("goods.csv", 'w') as file:
